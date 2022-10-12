@@ -26,7 +26,7 @@ The following graphic summarizes these commands with a small example.
 
 ![Batch Export Overview](doc/quick_guide.svg)
 
-The *BatchExport* command uses the standard tesselation algorithm of the FreeCAD's Mesh Designer.
+The *BatchExport* command uses the standard tesselation algorithm of FreeCAD's Mesh Designer.
 As shown below the *mesh_input* group will contain a number of tesselation parameters which you can adjust to change the resolution of the generated meshes. The parameter *Export STL* can be set to `false` to skip the file export (only create meshes).
 
 ![Batch Export Parameters](doc/params.svg)
