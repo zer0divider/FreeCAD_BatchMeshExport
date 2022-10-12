@@ -26,7 +26,13 @@ The following graphic summarizes these commands with a small example.
 
 ![Batch Export Overview](doc/quick_guide.svg)
 
-The *BatchExport* command uses the standard tesselation algorithm of FreeCAD's Mesh Designer.
+The *BatchExport* command uses the standard tesselation algorithm of FreeCAD's [Mesh Workbench](https://wiki.freecadweb.org/Mesh_Workbench).
 As shown below the *mesh_input* group will contain a number of tesselation parameters which you can adjust to change the resolution of the generated meshes. The parameter *Export STL* can be set to `false` to skip the file export (only create meshes).
 
 ![Batch Export Parameters](doc/params.svg)
+
+## Installation
+To install the latest version, simply clone this repository or download the release to your local `Mod` directory, located at
+* **Linux**: `~/.FreeCAD/Mod` (sometimes also `~/.local/share/FreeCAD/Mod`)
+* **Windows**: `C:\Users\<your_user_name>\AppData\Roaming\FreeCAD\Mod`
+* **MacOSX**: `/home/<your_user_name/Library/Preferences/FreeCAD/Mod`
