@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>Batch Mesh Export</name>
+  <description>Convert multiple objects to meshes and export them to STL files, with one click.</description>
+  <version>1.0</version>
+  <date>2022-10-13</date>
+  <maintainer email="zer0botos@gmail.com">zer0divider</maintainer>
+  <license file="LICENSE">GPLv3</license>
+  <url type="repository" branch="main">https://github.com/zer0divider/FreeCAD_BatchMeshExport</url>
+  <url type="readme">https://github.com/zer0divider/FreeCAD_BatchMeshExport</url>
+  <url type="documentation">https://github.com/realthunder/FreeCAD_assembly3/wiki</url>
+  <icon>resources/icons/workbench.svg</icon>
+
+  <content>
+    <workbench>
+      <name>Batch Mesh Export Workbench</name>
+      <classname>BatchMeshExportWorkbench</classname>
+      <subdirectory>./</subdirectory>
+      <icon>resources/icons/workbench.svg</icon>
+      <tag>mesh</tag>
+      <tag>3Dprint</tag>
+      <freecadmin>0.19.0</freecadmin>
+    </workbench>
+  </content>
+
+</package>
